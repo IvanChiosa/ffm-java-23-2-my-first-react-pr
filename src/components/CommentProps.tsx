@@ -3,6 +3,6 @@ export interface CommentProps {
     text: string;
 }
 const Comment: React.FunctionComponent<CommentProps> = ({ text }) => {
-    return <li>{text}</li>;
+    return <li><ul>{text}</ul></li>;
 }
 export default Comment;
